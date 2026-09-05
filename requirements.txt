@@ -1,0 +1,8 @@
+pywinauto==0.6.8
+Pillow==10.4.0
+python-docx==1.1.2
+docx2pdf==0.1.8
+pywin32==306
+WMI==1.5.1
+pywinauto-recorder==0.6.8
+
