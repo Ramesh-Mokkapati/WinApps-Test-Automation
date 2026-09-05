@@ -9,7 +9,7 @@ REQUIRED_PACKAGES = (
     ("PIL", "Pillow==10.4.0"),
     ("docx", "python-docx==1.1.2"),
     ("docx2pdf", "docx2pdf==0.1.8"),
-    ("win32com", "pywin32==306"),
+    ("win32com", "pywin32==307"),
     ("mysql", "mysql-connector-python==9.4.0"),
     ("wmi", "WMI==1.5.1"),
     ("pywinauto_recorder", "pywinauto-recorder==0.6.8"),
