@@ -2,6 +2,7 @@
 from TestScripts.Utils.Base.TestManager import *
 from TestScripts.Tests.UnitTests.WIN_APPS.WIN_APPS_001 import *
 from TestScripts.Tests.UnitTests.WIN_APPS.WIN_APPS_002 import *
+from TestScripts.Tests.UnitTests.WIN_APPS.WIN_APPS_003 import *
 
 
 class WIN_APPS_TestManager(TestManager):
@@ -18,3 +19,4 @@ class WIN_APPS_TestManager(TestManager):
         logging.info("WIN_APPS_TestManager::PrepareTests()")
         self.AddTest(WIN_APPS_001(self.m_sModuleName))
         self.AddTest(WIN_APPS_002(self.m_sModuleName))
+        self.AddTest(WIN_APPS_003(self.m_sModuleName))
